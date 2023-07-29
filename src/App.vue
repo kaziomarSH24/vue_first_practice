@@ -1,6 +1,6 @@
 <template>
   <h2>{{ title }}</h2>
-  <allFriends :friends="friends" @delete="deleteFriend"></allFriends>
+  <allFriends :friends="friends" @delete="deleteFriend" ></allFriends>
   <onlineFriends :friends="friends"></onlineFriends>
 </template>
 
